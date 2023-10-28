@@ -1,0 +1,15 @@
+{
+  "name": "bare-metal-javascript-the-javascript-virtual-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deopt-functions.js",
+  "scripts": {
+    "deopt": "dexnode --out logfile-deopt.log deopt.js",
+    "deopt-fixed": "dexnode --out logfile-deopt-fixed.log deopt-fixed.js",
+    "array-of-unlike-things": " dexnode --out logfile-array-of-unlike-things.log array-of-unlike-things.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
